@@ -7,3 +7,6 @@ print(f"zeros => {b}")
 
 c=torch.ones(2,3)
 print(f"ones => {c}")
+
+d=torch.rand(2,3)
+print(f"random => {d}")
