@@ -10,3 +10,7 @@ print(f"ones => {c}")
 
 d=torch.rand(2,3)
 print(f"random => {d}")
+
+torch.manual_seed(100)
+e=torch.rand(2,3)
+print(f"random with seed => {e}")
