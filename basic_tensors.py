@@ -26,3 +26,6 @@ print(f"linspace => {g}")
 
 h=torch.eye(3) #Identity matrix of size 3x3
 print(f"eye => {h}")
+
+i=torch.full((2,3),7) #All values will be 7
+print(f"full => {i}")
